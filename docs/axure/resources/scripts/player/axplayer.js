@@ -2355,7 +2355,7 @@ var iphoneXFirstPass = true;
         }
 
         _player.pluginVisibleChanged = function(hostId, visible) {
-            if ($axure.player.isCloud && plugins[hostId]) {
+            if (plugins[hostId]) {
                 $axure.messageCenter.postMessage('pluginVisibleChanged', { id: hostId, gid: plugins[hostId].gid, visible: visible });
             }
         }
@@ -2438,6 +2438,11 @@ var iphoneXFirstPass = true;
             $(document).trigger('pluginShown', [getVisiblePlugins()]);
         };
 
+        _player.navigateToIssue = function (issueId) {
+            if (typeof feedback !== 'undefined') {
+                feedback.navigateToIssue(issueId);
+            }
+        };
     }
 
 

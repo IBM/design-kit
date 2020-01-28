@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="13px" height="18px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="639px" y="1590px" width="13px" height="18px" filterUnits="userSpaceOnUse" id="filter25">
+      <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="0.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.2 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget26">
+      <image preserveAspectRatio="none" style="overflow:visible" width="11" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAABGdBTUEAALGPC/xhBQAAAtFJREFUSA29VT1oU1EYvYlRAtpEBCFpBaVDO5Wkg2RqxGDt0EwWbNopwaVzJzGgDcQ14BZIXIUsOigOKogUCyLZ1EERJUEDorFN1Da/13Nec8O7TV6eg/rByf1+znfuffe9e+MQQ0xK6UT6PHABOAv4AeaqwAfgCXDf4XB8w2htEHIAV4D3gJ3VQLgBHDErOlSAwlH4d4GLzO3u7opCoSA2NzdFpVIRqIuxsTExPT0totGoCIVCpNGeA5ew2i9GxB+Q3cAzQHY6HZnNZuX4+LhkyQpLS0uyWq2yhfYK8FLLMATXma3VanJxcdFSBGStNjU1JcvlMltp95TYCQS/mFldXdUaKOD3+2U4HJbBYFC63e6BOvPNZpPttHN83BV62KsBciaTke12m2XD+IixWGyAl8vlFOU2BfOM1tbWNGI8HlckbWw0GnJyclLjzs/PK85bCj5mFAgENFKxWFSkB3AmgFPARybX19c1Lifo2VcX9mmCm1kqlQRePV3hdDrFzMyM4ePnGvKfGKDpNYbTGBn2TfUh0SWpAoyyY+wE4TJgbOjs7Ky2wpUV4zVQ4ymJn4EfFuBpcAE3gS4g8/m8Jsa5tra2WKLd4uSWBoIHeEgmLZ1OS2yHJri8vLxf3J8wMEqMp+cF2Xt7e5KNIGvgi9ze3laCdyzFWADrKpn8TCKRiCbE8sLCgtzZ2VFi7+CctBN8SfbGxsaAWDKZNM58T+0NxjMjxVgE6TsbDn6fqVSKaWWP4By3FesJGp+Iz+frr5A3UKvVUmI8YYf+SKwn2GGnx+PpC87NzSkxjrw/B4wnxcooJBKJhMAdaXBwXSluA6fjpwrMY//GNifpYwVdDFb1DgSHLoZ/PFZmJUZ+y6pp6CxmstfrFbhAjZTL5RL1ep1+28wx+7aCOCWaoLl5mD/qkYfxbXN/XdD2kXGWbVdlJvzXFR42z3zANz76A7l/E/4GWdreQJY8kk4AAAAASUVORK5CYII=" x="640px" y="1590px" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -639 -1590 )">
+    <use xlink:href="#widget26" filter="url(#filter25)" />
+    <use xlink:href="#widget26" />
+  </g>
+</svg>
