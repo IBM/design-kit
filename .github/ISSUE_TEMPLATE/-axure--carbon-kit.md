@@ -15,7 +15,7 @@ assignees: csabasipos
 
 ## Detailed description
 
-Describe in detail the issue you're having. Please include whether or not this is part of Sketch Libraries or the larger Sketch Kit file.
+Describe in detail the issue you're having. Please include whether or not this is related to the Axure widget library or the template file.
 
 > Which kit version are you using?
 
@@ -23,7 +23,7 @@ Describe in detail the issue you're having. Please include whether or not this i
 > Is this a bug or feature enhancement request?
 
 
-> Is this issue related to a specific component? If so please give the page, artboard, and layer/symbol name.
+> Is this issue related to a specific component? If so please give the widget name.
 
 
 > If a bug, what did you expect to happen? What happened instead? What would you like to see changed?
@@ -34,5 +34,5 @@ Describe in detail the issue you're having. Please include whether or not this i
 
 ## Additional information
 
-* Screenshots or Sketch file links
+* Screenshots or Axure file links
 * Notes
